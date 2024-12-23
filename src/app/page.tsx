@@ -13,7 +13,7 @@ export default function Home() {
             <Ingredients />
             <LatestNews />
             <Footer />
-            {/* Other components will go here */}
+
         </>
     );
 }
