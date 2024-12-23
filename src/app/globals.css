@@ -328,13 +328,6 @@ body {
   color: #004080;
 }
 
-.sees-more:hover {
-  text-decoration: underline;
-}
-.see-more:hover {
-  text-decoration: underline;
-}
-
 .header-card {
   grid-column-start: span 1; 
   text-align: left;

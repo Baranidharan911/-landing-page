@@ -60,7 +60,7 @@ export default function Ingredients() {
                                 <div className="ingredient-content">
                                     <h3>{ingredient.title}</h3>
                                     <p>{ingredient.description}</p>
-                                    <a href="#" className="sees-more">See More</a>
+                                    <a className="sees-more">See More</a>
                                 </div>
                                 <Image src={ingredient.image} alt={ingredient.title} width={300} height={200} />
                             </>
@@ -75,7 +75,7 @@ export default function Ingredients() {
                         <div className="ingredients-content">
                             <h3>{ingredient.title}</h3>
                             <p>{ingredient.description}</p>
-                            <a href="#" className="see-more">See More</a>
+                            <a className="see-more">See More</a>
                         </div>
                         <Image src={ingredient.image} alt={ingredient.title} width={300} height={200} />
                     </div>
